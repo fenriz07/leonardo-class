@@ -13,10 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-
 Route::get('/', function () {
     return redirect('/login');
 });
+
+Route::get('/home', function () {
+    return view('home');
+})->middleware('auth');
+
+Route::post('/nota', 'NotaController@store')->middleware('auth')->name('nota.store');
+
+Route::get('/download', 'NotaController@download');
 
 Auth::routes();
