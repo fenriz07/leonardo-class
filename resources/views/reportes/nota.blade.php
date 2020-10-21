@@ -93,7 +93,7 @@
 
     <div class="row mb-20">
 
-        <!--<img class="center mb-20" src="http://jerseylocal.com/header_report.jpg">-->
+        <img class="center mb-20" src="http://romberries.store/public/img/report/header_report.jpg">
         <strong><p class="center">Carretera Los Reyes-Jacona Km 1, Módulo #5</p></strong>
         <strong><p class="center">Colonia San Juan de Dios. Los Reyes, Michoacán.</p></strong>
         <strong><p class="center">Tel: 354 118 34 44. Correo: romberries.productores@gmail.com</p></strong>
