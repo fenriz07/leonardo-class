@@ -25,7 +25,7 @@ class NotaController extends Controller
 
     public function download()
     {
-        $nota = Nota::find(5);
+        $nota = Nota::find(1);
 
         $pdf = PDF::loadView('reportes.nota', compact('nota'));
         return $pdf->download('nota_romberries.pdf');

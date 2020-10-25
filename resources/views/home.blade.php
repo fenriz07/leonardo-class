@@ -40,10 +40,16 @@
                 </div>
 
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md-6">
                         <div class="form-group">
                             <label for="">Nombre</label>
                             <input class="w-100 form-control" type="text" name="nombre" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="">N° de productor</label>
+                            <input class="w-100 form-control" type="text" name="numero_productor" required>
                         </div>
                     </div>
                 </div>

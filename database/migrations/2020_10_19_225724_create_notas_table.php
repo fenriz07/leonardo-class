@@ -19,6 +19,7 @@ class CreateNotasTable extends Migration
             $table->string('lugar');
             $table->string('cp');
             $table->string('nombre');
+            $table->string('numero_productor');
             $table->integer('estado');
             $table->integer('tipo_fruta');
             $table->integer('cantidad');

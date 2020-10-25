@@ -18,7 +18,8 @@ class Nota extends Model
         'pendiente',
         'cantidad_rechazada',
         'total_recibida',
-        'encargado'
+        'encargado',
+        'numero_productor',
     ];
 
     public function getEstadoAttribute($estado)
